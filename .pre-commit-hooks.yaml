@@ -1,0 +1,5 @@
+-   id: pyspark-docker
+    name: pyspark (via docker)
+    description: pyspark
+    entry: /entrypoint.sh
+    language: docker
