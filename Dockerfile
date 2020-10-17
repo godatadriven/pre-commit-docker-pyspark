@@ -1,4 +1,4 @@
-FROM godatadriven/pyspark:2.4.4
+FROM godatadriven/pyspark:3.0
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chgrp root /etc/passwd && \
